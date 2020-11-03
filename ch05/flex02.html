@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <style>
+            .flex-container {
+                display: flex;
+                justify-content: space-evenly; /* 진행방향 가로!! flex-start, center, flex-end, space-around, space-evenly, space-between */
+            }
+
+            .item {
+                border: 5px solid black;
+                width: 200px;
+                height: 100px;
+
+                display: flex;
+                justify-content: flex-end; /* 진행 방향(main axis)의 정렬 */
+                align-items: flex-end; /* 진행 방향의 반대(세로)(cross axis) 정렬 */
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-container">
+            <div class="item">첫번째 박스</div>
+            <div class="item">두번째 박스</div>
+            <div class="item">세번째 박스</div>
+        </div>
+    </body>
+</html>
