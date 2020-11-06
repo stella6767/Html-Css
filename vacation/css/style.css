@@ -5,13 +5,35 @@
 }
 
 .nav{
+    position: absolute;
     display: grid;
     grid-template-columns: 10% 80% 10%;
+}
 
+.n-title{
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
 
+.nav-logo{
+    margin-left: 100px;
+    padding-top: 20px;
+    font-size: 17px;
+    display: flex;
+}
+
+.nav-logo span{
+    display: block;
+    margin-left: 15px; 
+    width: 150px;
 }
 
 .menubar{
+    padding-top: 20px;
+    padding-left: 470px;
+    font-weight: 400;
     display: flex;
 }
 
@@ -46,4 +68,9 @@
     padding-left: 100px;
     font-weight: 900;
     font-size: 100px;
+}
+
+.l-div{
+    display: flex;
+    justify-content: space-between;
 }
