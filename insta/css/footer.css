@@ -1,0 +1,22 @@
+footer{
+    
+    padding: 50px 100px;
+}
+
+.footer1{
+    display: flex;
+    
+}
+
+.footerli{
+    list-style-type: none;
+    margin-right: 10px;
+    font-size: 14px;
+    color:blue;
+}
+
+.footerspan{
+    font-size: 13px;
+    color: grey;
+    margin-left: 300px;
+}

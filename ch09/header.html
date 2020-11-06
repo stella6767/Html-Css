@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <style>
+            *{
+                padding:0px;
+                margin:0px;
+                box-sizing: border-box;
+            }
+            header{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: pink;
+                height: 100px;
+
+                color: white;
+                font-size: 40px;
+                font-weight: 900;
+            }
+            ul{
+                display: flex;
+                justify-content: space-between;  
+                flex-wrap: wrap;
+              
+            }
+            li{
+                margin-left: 25px; /*위에가 0이라도 아래게 우선순위를 가지므로 마진이 생김*/
+                list-style-type: none;
+                width: 200px; /*flex-wrap   */
+            }
+
+            nav a{
+                text-decoration: none;
+                color: white;
+                display: inline-block; /*a 태그의 크기를 키우기 위해 */
+                padding: 20px 0;
+                font-weight: 700;                
+            }
+        
+            nav{
+                background-color: orange;
+            }
+
+            nav a:hover{
+                background-color: rgba(153, 125, 72, 0.966);
+            }
+            .submenu{
+                position: relative;
+            }
+
+            .dropdown{
+                position: absolute;
+                display: none;
+            }
+
+             .submenu > a:hover +.dropdown{
+                display: block;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            COS
+        </header>
+        <nav>
+            <ul>
+                <li><a href = "#">Home</a></li>
+                <li><a href = "#">HTML</a></li>
+                <li><a href = "#">CSS</a></li>
+                <li class="submenu">
+                    <a href = "#">JAVASCRIPTS</a>
+                    <div class="dropdown"> 
+                        <div>Link 1</div>
+                        <div>Link 2</div>
+                        <div>Link 3</div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </body>
+</html>

@@ -1,0 +1,47 @@
+.login{
+    margin:50px auto;
+    width: 60%;
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.login__box{
+    margin-left: 20px;
+    background-color: white;
+    width:350px;
+    border:1px solid rgb(211, 210, 210);
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.login__form{
+    padding-top: 15px;
+}
+
+form{
+    padding: 0px 30px;
+}
+
+.login__form form input, button{     /*로그인 폼의 폼 안에 input과 button에 스타일 적용*/ 
+
+}
+
+.login__form input{
+    display: block;
+    width:250px;
+    height:40px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(211, 210, 210)
+}
+
+.login__app{
+    display: flex;
+    justify-content: center;
+}
+
+.login__app img{
+    width:146px;
+    height:40px;
+}

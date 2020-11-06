@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+
+
+}
+
+.menubar{
+    display: flex;
+}
+
+.menubar>li{
+    list-style-type: none;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.main-box{
+    display: flex;
+}
+
+.main-box>div{
+    width: 50%;
+    height: 700px;
+}
+
+.img-box{
+    background-image: url("../vacation.jpg");
+    background-size: 100% 100%;
+}
+
+.collection-box>div:nth-child(1){
+    height: 80%;
+    background-color: rgb(248, 223, 227);
+}
+
+.collection-box span{
+    display: block;
+    padding-top: 100px;
+    padding-left: 100px;
+    font-weight: 900;
+    font-size: 100px;
+}

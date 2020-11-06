@@ -1,0 +1,10 @@
+
+@import url("main.css");
+@import url("footer.css");
+@import url("header.css");
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; /*알아서 boder 두께만큼 차감해서 지정한 값만큼 만들어지게끔*/
+}
