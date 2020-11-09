@@ -1,0 +1,24 @@
+.row>div{
+    height: 300px;
+}
+
+
+.row>div{
+    border: 1px solid black;
+    margin: 1% 1%;  
+    display: flex;
+    justify-content: center;
+    background-image: url("../img/tour.jpg"); 
+    background-size: 100% 100%;
+}
+
+.col-sm-4>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.absoult-box>div{
+    display: block;
+}
