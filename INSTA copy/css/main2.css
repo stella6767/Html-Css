@@ -1,5 +1,16 @@
+ul,ol{
+   /* list-style: none;  */
+}
+
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+
 .row>div{
-    height: 300px;
+   
 }
 
 
@@ -22,3 +33,4 @@
 .absoult-box>div{
     display: block;
 }
+
