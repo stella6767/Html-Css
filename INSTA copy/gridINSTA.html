@@ -1,184 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="css/style.css">
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        @media screen and (max-width: 800px) {
+            .m-li {
+                flex-direction: column;
+            }
+        }
+
+        .m-li {
+            display: flex;
+        }
+
+        .modal-dialog {
+            width: 700px;
+            height: 700px !important;
+        }
+
+        .modal-content {
+            height: 80%;
+            background-color: #BBD6EC;
+
+        }
+    </style>
 </head>
+
 <body>
 
 
-<div class="main-box">
-    <div class="grid-container">
-            <div class="item-1">
-                <div class="hidden-box">
-                    <ul>
-                        <li>
-                            <span>41.천</span>
-                            <span>732</span>
-                        </li>                    
-                    </ul>               
-                </div>   
+    <div class="main-box">
+        <div class="grid-container">
 
-            </div>
-
-            <div class="item-2">
-                <div>
-                    <div>      
-                        41.천
-                        732       
-                    </div>             
-                </div>      
-            </div>
-            
-            <div class="item-3">
-                <div>
-                
-                    
-                </div>      
-            </div>
-
-            <div class="item-4">
-                <div>
-                    
-                    
-                </div>          
-            </div>
-
-            <div class="item-5">
-                <div>
-                    
-                    
-                </div>          
-            </div>
-
-            <div class="item-6">
-                <div>
-                    
-                    
-                </div>                     
-            </div>
-
-            <div class="item-7">
-                <div>
-                    
-                    
-                </div>                      
-            </div>
-
-            <div class="item-8">
-                <div>
-                    
-                    
-                </div>                      
-            </div>
-
-            <div class="item-9">
-                <div>
-                    
-                    
-                </div>                      
-            </div>  
-            <div class="item-4">
-                <div>
-                    
-                    
-                </div>          
-            </div>
-
-            <div class="item-5">
-                <div>
-                    
-                    
-                </div>          
-            </div>
-
-            <div class="item-6">
-                <div>
-                    
-                    
-                </div>                     
-            </div>
-
-            <div class="item-7">
-                <div>
-                    
-                    
-                </div>                      
-            </div>
-
-            <div class="item-8">
-                <div>
-                    
-                    
-                </div>                      
-            </div>
-
-            <div class="item-9">
-                <div>
-                    
-                    
-                </div>                      
-            </div>  
-            
-            
-    </div>
-
-
-</div>   
-<!-- 메인박스 -->
-
-
-
-
-    <footer>
-        <div class="jumbotron text-center">
-            <div class="footer-1">
-                <a href="#">소개</a>
-                <a href="#">블로그</a>
-                <a href="#">채용 정보</a>
-                <a href="#">도움말</a>
-                <a href="#">API</a>
-                <a href="#">개인정보처리방침</a>
-                <a href="#">약관</a>
-                <a href="#">인기계정</a>
-                <a href="#">해시 태그</a>                
-                <a href="#"> 위치</a>
-            </div>
-            <div class="footer-flex">
-                <div>
-                    <select>
-                        <option selected>한국어</option>
-                        <option >중국어</option>
-                        <option >영어</option>
-                    </select>
+            <div class="item"
+                style="background-image: url('img/tour.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+                <div class="hidden-box bg-dark">
+                    <ul class="list-unstyled d-flex justify-content-center align-items-center w-100 h-100 ">
+                        <li class="m-li  ">
+                            <span class="d-block mx-3 text-white font-weight-bold">🤍 41.천</span>
+                            <span class="d-block mx-3 text-white font-weight-bold">🗨️ 732</span>
+                        </li>
+                    </ul>
                 </div>
-                <div>
-                  © 2020 Instagram from Facebook
+            </div>
+
+            <div class="item"
+                style="background-image: url('img/1.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+                <div class="hidden-box bg-dark">
+                    <ul class="list-unstyled d-flex justify-content-center align-items-center w-100 h-100 ">
+                        <li class="m-li">
+                            <span class="d-block mx-3 text-white font-weight-bold">11.천</span>
+                            <span class="d-block mx-3 text-white font-weight-bold">190</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item"
+                style="background-image: url('img/2.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+                <div class="hidden-box bg-dark">
+                    <ul class="list-unstyled d-flex justify-content-center align-items-center w-100 h-100 ">
+                        <li class="m-li">
+                            <span class="d-block mx-3 text-white font-weight-bold">21.천</span>
+                            <span class="d-block mx-3 text-white font-weight-bold">300</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item"
+                style="background-image: url('img/3.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+                <div class="hidden-box bg-dark">
+                    <ul class="list-unstyled d-flex justify-content-center align-items-center w-100 h-100 ">
+                        <li class="m-li">
+                            <span class="d-block mx-3 text-white font-weight-bold">3.121</span>
+                            <span class="d-block mx-3 text-white font-weight-bold">751</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item"
+                style="background-image: url('img/4.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+                <div class="hidden-box bg-dark">
+                    <ul class="list-unstyled d-flex justify-content-center align-items-center w-100 h-100 ">
+                        <li class="m-li">
+                            <span class="d-block mx-3 text-white font-weight-bold">1.455</span>
+                            <span class="d-block mx-3 text-white font-weight-bold">999</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item"
+                style="background-image: url('img/5.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+                <div class="hidden-box bg-dark">
+                    <ul class="list-unstyled d-flex justify-content-center align-items-center w-100 h-100 ">
+                        <li class="m-li">
+                            <span class="d-block mx-3 text-white font-weight-bold">14.3천</span>
+                            <span class="d-block mx-3 text-white font-weight-bold">1,600</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item"
+                style="background-image: url('img/6.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+                <div class="hidden-box bg-dark">
+                    <ul class="list-unstyled d-flex justify-content-center align-items-center w-100 h-100 ">
+                        <li class="m-li">
+                            <span class="d-block mx-3 text-white font-weight-bold">23.5</span>
+                            <span class="d-block mx-3 text-white font-weight-bold">5,000</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item"
+                style="background-image: url('img/7.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+                <div class="hidden-box bg-dark">
+                    <ul class="list-unstyled d-flex justify-content-center align-items-center w-100 h-100 ">
+                        <li class="m-li">
+                            <span class="d-block mx-3 text-white font-weight-bold">1200</span>
+                            <span class="d-block mx-3 text-white font-weight-bold">542</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item"
+                style="background-image: url('img/8.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+                <div class="hidden-box bg-dark">
+                    <ul class="list-unstyled d-flex justify-content-center align-items-center w-100 h-100 ">
+                        <li class="m-li">
+                            <span class="d-block mx-3 text-white font-weight-bold">33.천</span>
+                            <span class="d-block mx-3 text-white font-weight-bold">112</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item"
+                style="background-image: url('img/9.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+                <div class="hidden-box bg-dark">
+                    <ul class="list-unstyled d-flex justify-content-center align-items-center w-100 h-100 ">
+                        <li class="m-li">
+                            <span class="d-block mx-3 text-white font-weight-bold">31.천</span>
+                            <span class="d-block mx-3 text-white font-weight-bold">1,001</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item"
+                style="background-image: url('img/10.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+                <div class="hidden-box bg-dark">
+                    <ul class="list-unstyled d-flex justify-content-center align-items-center w-100 h-100 ">
+                        <li class="m-li">
+                            <span class="d-block mx-3 text-white font-weight-bold">55.천</span>
+                            <span class="d-block mx-3 text-white font-weight-bold">122</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item"
+                style="background-image: url('img/11.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+                <div class="hidden-box bg-dark">
+                    <ul class="list-unstyled d-flex justify-content-center align-items-center w-100 h-100 ">
+                        <li class="m-li">
+                            <span class="d-block mx-3 text-white font-weight-bold">1,700</span>
+                            <span class="d-block mx-3 text-white font-weight-bold">11</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item"
+                style="background-image: url('img/12.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+                <div class="hidden-box bg-dark">
+                    <ul class="list-unstyled d-flex justify-content-center align-items-center w-100 h-100 ">
+                        <li class="m-li">
+                            <span class="d-block mx-3 text-white font-weight-bold">61.천</span>
+                            <span class="d-block mx-3 text-white font-weight-bold">5,000</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item"
+                style="background-image: url('img/13.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+                <div class="hidden-box bg-dark">
+                    <ul class="list-unstyled d-flex justify-content-center align-items-center w-100 h-100 ">
+                        <li class="m-li">
+                            <span class="d-block mx-3 text-white font-weight-bold">21.천</span>
+                            <span class="d-block mx-3 text-white font-weight-bold">762</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item"
+                style="background-image: url('img/15.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+                <div class="hidden-box bg-dark">
+                    <ul class="list-unstyled d-flex justify-content-center align-items-center w-100 h-100 ">
+                        <li class="m-li">
+                            <span class="d-block mx-3 text-white font-weight-bold">11.천</span>
+                            <span class="d-block mx-3 text-white font-weight-bold">123</span>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
+    <!-- 메인박스 -->
 
 
-<script>
+    <!-- The Modal -->
+    <div class="modal fade " id="myModal">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
 
-    $('.item-1').mouseover(function(){
-        $('.hidden-box').show();
+                <!-- Modal body -->
+                <div class="modal-body">
+                    Modal body..
+                </div>
 
-    });
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
 
-    $('.hidden-box').mouseout(function(){
-        $('.hidden-box').hide();
+            </div>
+        </div>
+    </div>
 
-    });
-</script>
+    <script>
+        $('.hidden-box').on("click", function () {
+            $('#myModal').modal('show');
+        });
+
+        $('.item').mouseover(function () {
+            $(this).children('div').show();
+            // $('.hidden-box').show();
+
+        });
+
+        $('.hidden-box').mouseout(function () {
+            $('.hidden-box').hide();
+
+        });
+    </script>
 
 
 </body>
+
 </html>
