@@ -1,3 +1,9 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
 .main-box{
     box-sizing: content-box;
     max-width: 935px;
@@ -24,19 +30,18 @@
    
 }
 
-.grid-container2>div{
-    background-image: url("../img/tour.jpg"); 
-    background-size: 100% 100%;
-}
-
 .grid-container>div{
     display: flex;
-    background-color: pink;
     justify-content: center;
     align-items: center;
-    /* background-image: url("../img/tour.jpg"); 
-    background-size: 100% 100%; */
+  
 }
+.grid-container2>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .grid-container>div:nth-child(8n+2){
     grid-row: span 2;
@@ -45,8 +50,12 @@
 }
 
 .grid-container div div{
+    width: 100%;
+    height:100%
     
-    /* background-color: gray; */
+}
+
+.grid-container2 div div{
     width: 100%;
     height:100%
     
@@ -60,6 +69,25 @@
 
 
 
+@media screen and (max-width: 800px) {
+    .m-li {
+        flex-direction: column;
+    }
+}
+
+.m-li {
+    display: flex;
+}
+
+.img-modal {
+    width: 700px;
+    height: 500px !important;
+}
+
+.m-modal-content {
+    height: 90%;
+
+}
 
 
 
