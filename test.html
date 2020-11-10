@@ -10,30 +10,47 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <style>
-        div {
-            display: inline-block;
-            width: 70px;
-            height: 70px;
-            margin: 6px;
-            background-color: #555;
+        .img-box {
+            border: 1px solid black;
         }
     </style>
 </head>
 
 <body>
 
+    <div class="jumbotron text-center">
+        <h1>My First Bootstrap Page</h1>
+        <p>Resize this responsive page to see the effect!</p>
+    </div>
+
     <div class="container">
-        <h2>Borders</h2>
-        <p>Round the corner of an element with the rounded classes:</p>
-        <div class="rounded-sm"></div>
-        <div class="rounded"></div>
-        <div class="rounded-lg"></div>
-        <div class="rounded-top"></div>
-        <div class="rounded-right"></div>
-        <div class="rounded-bottom"></div>
-        <div class="rounded-left"></div>
-        <div class="rounded-circle"></div>
-        <div class="rounded-0"></div>
+        <div class="row">
+            <div class="col-sm-4 img-box" style="height: 300px;">
+                <div class="col-sm-12 img-box h-50">
+                    <h3>Column 2</h3>
+                </div>
+                <div class="col-sm-12 img-box h-50">
+                    <h3>Column 2</h3>
+                </div>
+
+            </div>
+            <div class="col-sm-8 img-box">
+                <h3>Column 2</h3>
+
+            </div>
+            <div class="col-sm-4 img-box">
+                <h3>Column 3</h3>
+            </div>
+            <div class="col-sm-4 img-box">
+                <h3>Column 1</h3>
+
+            </div>
+            <div class="col-sm-4 img-box">
+                <h3>Column 2</h3>
+
+            </div>
+
+        </div>
     </div>
 
 </body>
